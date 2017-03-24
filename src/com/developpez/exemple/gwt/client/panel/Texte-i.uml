@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_Y9WAcGphEdu6RZUBZGK4Bw" name="panel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_CCYwUGpQEdu6RZUBZGK4Bw" name="Texte" clientDependency="_CyhMwGpQEdu6RZUBZGK4Bw _Cyq9wmpQEdu6RZUBZGK4Bw _Cy0uwmpQEdu6RZUBZGK4Bw _Cy94sWpQEdu6RZUBZGK4Bw _Cy94tGpQEdu6RZUBZGK4Bw _CzHpsWpQEdu6RZUBZGK4Bw _CzQzompQEdu6RZUBZGK4Bw _CzakoWpQEdu6RZUBZGK4Bw _C0m3cGpQEdu6RZUBZGK4Bw _C0m3cmpQEdu6RZUBZGK4Bw _C0m3dGpQEdu6RZUBZGK4Bw _lOf_IGpYEdu6RZUBZGK4Bw _lOf_ImpYEdu6RZUBZGK4Bw _lOpwIWpYEdu6RZUBZGK4Bw _phbz8GpYEdu6RZUBZGK4Bw _phbz8mpYEdu6RZUBZGK4Bw _phk94WpYEdu6RZUBZGK4Bw _pxheZGpYEdu6RZUBZGK4Bw _pxrPYWpYEdu6RZUBZGK4Bw _pxrPY2pYEdu6RZUBZGK4Bw _qQXWgWpYEdu6RZUBZGK4Bw _qQXWg2pYEdu6RZUBZGK4Bw _qQhHgWpYEdu6RZUBZGK4Bw _qbirwmpYEdu6RZUBZGK4Bw _qbscwWpYEdu6RZUBZGK4Bw _qbscw2pYEdu6RZUBZGK4Bw _qmuBAmpYEdu6RZUBZGK4Bw _qnA78WpYEdu6RZUBZGK4Bw _qnA782pYEdu6RZUBZGK4Bw _qxcqUGpYEdu6RZUBZGK4Bw _qxmbUWpYEdu6RZUBZGK4Bw _qxvlQWpYEdu6RZUBZGK4Bw _rGdRAGpYEdu6RZUBZGK4Bw _rGdRAmpYEdu6RZUBZGK4Bw _rGnCAWpYEdu6RZUBZGK4Bw _rbUtwGpYEdu6RZUBZGK4Bw _rbUtwmpYEdu6RZUBZGK4Bw _rbd3sWpYEdu6RZUBZGK4Bw _r08usGpYEdu6RZUBZGK4Bw _r08usmpYEdu6RZUBZGK4Bw _r1GfsWpYEdu6RZUBZGK4Bw _sdCCYGpYEdu6RZUBZGK4Bw _sdCCYmpYEdu6RZUBZGK4Bw _sdLzYWpYEdu6RZUBZGK4Bw _sqvuQGpYEdu6RZUBZGK4Bw _sqvuQmpYEdu6RZUBZGK4Bw _sq5fQWpYEdu6RZUBZGK4Bw _ss1Y8GpYEdu6RZUBZGK4Bw _ss-i4WpYEdu6RZUBZGK4Bw _ss-i42pYEdu6RZUBZGK4Bw _syDQIGpYEdu6RZUBZGK4Bw _syDQImpYEdu6RZUBZGK4Bw _syMaEWpYEdu6RZUBZGK4Bw _UCFhAGpZEdu6RZUBZGK4Bw _UCOq8WpZEdu6RZUBZGK4Bw _UCOq82pZEdu6RZUBZGK4Bw _UFzjYGpZEdu6RZUBZGK4Bw _UFzjYmpZEdu6RZUBZGK4Bw _UF9UYWpZEdu6RZUBZGK4Bw _UHTYMGpZEdu6RZUBZGK4Bw _UHciIWpZEdu6RZUBZGK4Bw _UHciI2pZEdu6RZUBZGK4Bw _UNHFQGpZEdu6RZUBZGK4Bw _UNHFQmpZEdu6RZUBZGK4Bw _UNHFRGpZEdu6RZUBZGK4Bw _ZgVOM2pgEdu6RZUBZGK4Bw _ZgVONWpgEdu6RZUBZGK4Bw _ZgVON2pgEdu6RZUBZGK4Bw _Zl2AUGpgEdu6RZUBZGK4Bw _Zl_xUWpgEdu6RZUBZGK4Bw _Zl_xU2pgEdu6RZUBZGK4Bw">
+    <generalization xmi:id="_CwcJIGpQEdu6RZUBZGK4Bw" general="_CwSYImpQEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_Cxeq8GpQEdu6RZUBZGK4Bw" name="label" visibility="private" type="_Cxeq8WpQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cxob-GpQEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cxob92pQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Cxeq8mpQEdu6RZUBZGK4Bw" name="textBox" visibility="private" type="_Cxeq82pQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cx7W4GpQEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cxxl4GpQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Cxeq9GpQEdu6RZUBZGK4Bw" name="setLabel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZgVOMWpgEdu6RZUBZGK4Bw" name="texte" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Cxob9GpQEdu6RZUBZGK4Bw" name="Texte" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_Cxob9WpQEdu6RZUBZGK4Bw" name="setTexte" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZgVOMmpgEdu6RZUBZGK4Bw" name="texte" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qQOMkmpYEdu6RZUBZGK4Bw" name="getTexte" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZgVOMGpgEdu6RZUBZGK4Bw" type="_Cxob8mpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C5FHxGpQEdu6RZUBZGK4Bw" name="Widget"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C47Wx2pQEdu6RZUBZGK4Bw" name="Element" isLeaf="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_cV3xkWpYEdu6RZUBZGK4Bw" name="SourcesClickEvents" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_cWBikWpYEdu6RZUBZGK4Bw" name="SourcesMouseEvents" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_cWBilGpYEdu6RZUBZGK4Bw" name="HasText" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_cWBilmpYEdu6RZUBZGK4Bw" name="HasWordWrap" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cXN1YmpYEdu6RZUBZGK4Bw" name="ClickListenerCollection"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cXN1ZGpYEdu6RZUBZGK4Bw" name="MouseListenerCollection"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_cXN1ZmpYEdu6RZUBZGK4Bw" name="ClickListener" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cXN1aWpYEdu6RZUBZGK4Bw" name="Event" isLeaf="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_cXXmampYEdu6RZUBZGK4Bw" name="MouseListener" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ebFxoGpYEdu6RZUBZGK4Bw" name="TextBoxBase"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CAc2oWpQEdu6RZUBZGK4Bw" name="HorizontalPanel">
+    <generalization xmi:id="_C4Vg4WpQEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C4Vg4GpQEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <generalization xmi:id="_C4Vg42pQEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_C4Vg4mpQEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <generalization xmi:id="_C4Vg5WpQEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_C4Vg5GpQEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <ownedAttribute xmi:id="_C4yM0GpQEdu6RZUBZGK4Bw" name="vertAlign" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WwWpQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_C47WwmpQEdu6RZUBZGK4Bw" name="horzAlign" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_C47WxWpQEdu6RZUBZGK4Bw" name="tableRow" visibility="private" type="_C47Wx2pQEdu6RZUBZGK4Bw"/>
+    <ownedOperation xmi:id="_C47WyGpQEdu6RZUBZGK4Bw" name="setVerticalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHwGpQEdu6RZUBZGK4Bw" name="align">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WwWpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHwWpQEdu6RZUBZGK4Bw" name="getVerticalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHwmpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WwWpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHw2pQEdu6RZUBZGK4Bw" name="add" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHxWpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHxmpQEdu6RZUBZGK4Bw" name="getWidgetIndex" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHx2pQEdu6RZUBZGK4Bw" name="child" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_C5FHyGpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHyWpQEdu6RZUBZGK4Bw" name="getWidget" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHympQEdu6RZUBZGK4Bw" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_C5FHy2pQEdu6RZUBZGK4Bw" type="_C5FHxGpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHzGpQEdu6RZUBZGK4Bw" name="HorizontalPanel" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_C5FHzWpQEdu6RZUBZGK4Bw" name="getHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5ORsGpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5ORsWpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCsGpQEdu6RZUBZGK4Bw" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_C5YCsWpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCsmpQEdu6RZUBZGK4Bw" name="setHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCs2pQEdu6RZUBZGK4Bw" name="align">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCtGpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCtWpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_C5YCtmpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCt2pQEdu6RZUBZGK4Bw" name="insert" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCuGpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_C5YCuWpQEdu6RZUBZGK4Bw" name="beforeIndex">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCumpQEdu6RZUBZGK4Bw" name="getWidgetCount" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCu2pQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CwSYImpQEdu6RZUBZGK4Bw" name="Composite" isAbstract="true">
+    <generalization xmi:id="_XE0HoGpYEdu6RZUBZGK4Bw" general="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_XFZ9gGpYEdu6RZUBZGK4Bw" name="widget" visibility="private" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    <ownedOperation xmi:id="_XFZ9gWpYEdu6RZUBZGK4Bw" name="onAttach" visibility="protected" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_XFZ9gmpYEdu6RZUBZGK4Bw" name="initWidget" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_XFZ9g2pYEdu6RZUBZGK4Bw" name="widget" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_XFZ9hGpYEdu6RZUBZGK4Bw" name="setWidget" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_XFZ9hWpYEdu6RZUBZGK4Bw" name="widget" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_XFZ9hmpYEdu6RZUBZGK4Bw" name="onDetach" visibility="protected" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_XFZ9h2pYEdu6RZUBZGK4Bw" name="getElement" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_XFZ9iGpYEdu6RZUBZGK4Bw" type="_C47Wx2pQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_XFZ9iWpYEdu6RZUBZGK4Bw" name="Composite" visibility="public" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Cxeq8WpQEdu6RZUBZGK4Bw" name="Label">
+    <generalization xmi:id="_cV3xkGpYEdu6RZUBZGK4Bw" general="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    <generalization xmi:id="_cWBikGpYEdu6RZUBZGK4Bw" general="_cV3xkWpYEdu6RZUBZGK4Bw"/>
+    <generalization xmi:id="_cWBikmpYEdu6RZUBZGK4Bw" general="_cWBikWpYEdu6RZUBZGK4Bw"/>
+    <generalization xmi:id="_cWBik2pYEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_C47Ww2pQEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <generalization xmi:id="_cWBilWpYEdu6RZUBZGK4Bw" general="_cWBilGpYEdu6RZUBZGK4Bw"/>
+    <generalization xmi:id="_cWBil2pYEdu6RZUBZGK4Bw" general="_cWBilmpYEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_cXN1YGpYEdu6RZUBZGK4Bw" name="horzAlign" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_cXN1YWpYEdu6RZUBZGK4Bw" name="clickListeners" visibility="private" type="_cXN1YmpYEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_cXN1Y2pYEdu6RZUBZGK4Bw" name="mouseListeners" visibility="private" type="_cXN1ZGpYEdu6RZUBZGK4Bw"/>
+    <ownedOperation xmi:id="_cXN1ZWpYEdu6RZUBZGK4Bw" name="addClickListener" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXN1Z2pYEdu6RZUBZGK4Bw" name="listener" type="_cXN1ZmpYEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXN1aGpYEdu6RZUBZGK4Bw" name="onBrowserEvent" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXXmYGpYEdu6RZUBZGK4Bw" name="event" type="_cXN1aWpYEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXXmYWpYEdu6RZUBZGK4Bw" name="Label" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXXmYmpYEdu6RZUBZGK4Bw" name="text" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_cXXmY2pYEdu6RZUBZGK4Bw" name="wordWrap">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXXmZGpYEdu6RZUBZGK4Bw" name="Label" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_cXXmZWpYEdu6RZUBZGK4Bw" name="setHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXXmZmpYEdu6RZUBZGK4Bw" name="align">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXXmZ2pYEdu6RZUBZGK4Bw" name="removeClickListener" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXXmaGpYEdu6RZUBZGK4Bw" name="listener" type="_cXN1ZmpYEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXXmaWpYEdu6RZUBZGK4Bw" name="addMouseListener" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXXma2pYEdu6RZUBZGK4Bw" name="listener" type="_cXXmampYEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXXmbGpYEdu6RZUBZGK4Bw" name="removeMouseListener" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXgwUGpYEdu6RZUBZGK4Bw" name="listener" type="_cXXmampYEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXgwUWpYEdu6RZUBZGK4Bw" name="Label" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXgwUmpYEdu6RZUBZGK4Bw" name="text" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXgwU2pYEdu6RZUBZGK4Bw" name="setWordWrap" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXgwVGpYEdu6RZUBZGK4Bw" name="wrap">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXgwVWpYEdu6RZUBZGK4Bw" name="getWordWrap" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXgwVmpYEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXgwV2pYEdu6RZUBZGK4Bw" name="getText" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXgwWGpYEdu6RZUBZGK4Bw" type="_Cxob8mpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXgwWWpYEdu6RZUBZGK4Bw" name="setText" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXgwWmpYEdu6RZUBZGK4Bw" name="text" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_cXgwW2pYEdu6RZUBZGK4Bw" name="getHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_cXgwXGpYEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Cxeq82pQEdu6RZUBZGK4Bw" name="TextBox">
+    <generalization xmi:id="_ebFxoWpYEdu6RZUBZGK4Bw" general="_ebFxoGpYEdu6RZUBZGK4Bw"/>
+    <ownedOperation xmi:id="_ebFxompYEdu6RZUBZGK4Bw" name="setVisibleLength" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ebPioGpYEdu6RZUBZGK4Bw" name="length">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ebPioWpYEdu6RZUBZGK4Bw" name="TextBox" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_ebPiompYEdu6RZUBZGK4Bw" name="getMaxLength" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ebPio2pYEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ebPipGpYEdu6RZUBZGK4Bw" name="getVisibleLength" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ebPipWpYEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ebPipmpYEdu6RZUBZGK4Bw" name="setMaxLength" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ebPip2pYEdu6RZUBZGK4Bw" name="length">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_qST3QGpYEdu6RZUBZGK4Bw" name="com.developpez.exemple.gwt.client">
+    <packagedElement xmi:type="uml:Class" xmi:id="_qST3QWpYEdu6RZUBZGK4Bw" name="MonApplication" clientDependency="_ZfuxSmpgEdu6RZUBZGK4Bw _ZfuxTGpgEdu6RZUBZGK4Bw _Zf4iQmpgEdu6RZUBZGK4Bw _Zf4iRGpgEdu6RZUBZGK4Bw _Zf4iR2pgEdu6RZUBZGK4Bw _Zf4iSmpgEdu6RZUBZGK4Bw _Zf4iTGpgEdu6RZUBZGK4Bw _ZgCTQmpgEdu6RZUBZGK4Bw _ZgCTRWpgEdu6RZUBZGK4Bw _ZlZUYGpgEdu6RZUBZGK4Bw _ZljFYWpgEdu6RZUBZGK4Bw _ZljFY2pgEdu6RZUBZGK4Bw">
+      <generalization xmi:id="_Zfb2UWpgEdu6RZUBZGK4Bw">
+        <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_Zfb2UGpgEdu6RZUBZGK4Bw"/>
+      </generalization>
+      <generalization xmi:id="_ZflnUWpgEdu6RZUBZGK4Bw">
+        <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_ZflnUGpgEdu6RZUBZGK4Bw"/>
+      </generalization>
+      <ownedAttribute xmi:id="_ZfuxQGpgEdu6RZUBZGK4Bw" name="outer" visibility="private">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxQWpgEdu6RZUBZGK4Bw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZfuxR2pgEdu6RZUBZGK4Bw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZfuxRmpgEdu6RZUBZGK4Bw"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_ZfuxQmpgEdu6RZUBZGK4Bw" name="onWindowResized" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_ZfuxQ2pgEdu6RZUBZGK4Bw" name="width">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ZfuxRGpgEdu6RZUBZGK4Bw" name="height">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ZfuxRWpgEdu6RZUBZGK4Bw" name="onModuleLoad" visibility="public" concurrency="concurrent"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qST3QWpYEdu6RZUBZGK4Bw" name="MonApplication" clientDependency="_ZfuxSmpgEdu6RZUBZGK4Bw _ZfuxTGpgEdu6RZUBZGK4Bw _Zf4iQmpgEdu6RZUBZGK4Bw _Zf4iRGpgEdu6RZUBZGK4Bw _Zf4iR2pgEdu6RZUBZGK4Bw _Zf4iSmpgEdu6RZUBZGK4Bw _Zf4iTGpgEdu6RZUBZGK4Bw _ZgCTQmpgEdu6RZUBZGK4Bw _ZgCTRWpgEdu6RZUBZGK4Bw _ZlZUYGpgEdu6RZUBZGK4Bw _ZljFYWpgEdu6RZUBZGK4Bw _ZljFY2pgEdu6RZUBZGK4Bw">
+    <generalization xmi:id="_Zfb2UWpgEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_Zfb2UGpgEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <generalization xmi:id="_ZflnUWpgEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_ZflnUGpgEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <ownedAttribute xmi:id="_ZfuxQGpgEdu6RZUBZGK4Bw" name="outer" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxQWpgEdu6RZUBZGK4Bw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZfuxR2pgEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZfuxRmpgEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ZfuxQmpgEdu6RZUBZGK4Bw" name="onWindowResized" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZfuxQ2pgEdu6RZUBZGK4Bw" name="width">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ZfuxRGpgEdu6RZUBZGK4Bw" name="height">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ZfuxRWpgEdu6RZUBZGK4Bw" name="onModuleLoad" visibility="public" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QT1ctmpQEdu6RZUBZGK4Bw" name="Contact" clientDependency="_MX3x4GpaEdu6RZUBZGK4Bw">
+    <ownedAttribute xmi:id="_MXRU8GpaEdu6RZUBZGK4Bw" name="prenom" visibility="public" type="_Cxob8mpQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXuA5mpaEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXuA5WpaEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MXRU8WpaEdu6RZUBZGK4Bw" name="email" visibility="public" type="_Cxob8mpQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXuA6GpaEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXuA52paEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MXRU8mpaEdu6RZUBZGK4Bw" name="photo" visibility="public" type="_Cxob8mpQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXuA6mpaEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXuA6WpaEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MXRU82paEdu6RZUBZGK4Bw" name="tel" visibility="public" type="_Cxob8mpQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXuA7GpaEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXuA62paEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MXRU9GpaEdu6RZUBZGK4Bw" name="nom" visibility="public" type="_Cxob8mpQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MXuA7mpaEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MXuA7WpaEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_MXRU9WpaEdu6RZUBZGK4Bw" name="Contact" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_MXRU9mpaEdu6RZUBZGK4Bw" name="getTel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo1C4mpgEdu6RZUBZGK4Bw" type="_Cxob8mpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRU-GpaEdu6RZUBZGK4Bw" name="Contact" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo-M02pgEdu6RZUBZGK4Bw" name="prenom" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_ZpH90GpgEdu6RZUBZGK4Bw" name="nom" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_ZpH90WpgEdu6RZUBZGK4Bw" name="email" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_ZpH90mpgEdu6RZUBZGK4Bw" name="tel" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRU_WpaEdu6RZUBZGK4Bw" name="getEmail" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo-M0mpgEdu6RZUBZGK4Bw" type="_Cxob8mpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRU_2paEdu6RZUBZGK4Bw" name="getPhoto" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo-M0GpgEdu6RZUBZGK4Bw" type="_Cxob8mpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRVAWpaEdu6RZUBZGK4Bw" name="setEmail" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZpH902pgEdu6RZUBZGK4Bw" name="email" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRVA2paEdu6RZUBZGK4Bw" name="setNom" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo1C4WpgEdu6RZUBZGK4Bw" name="nom" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRVBWpaEdu6RZUBZGK4Bw" name="getAllContacts" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo1C42pgEdu6RZUBZGK4Bw" type="_QT1ctmpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRVCWpaEdu6RZUBZGK4Bw" name="getNom" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo-M0WpgEdu6RZUBZGK4Bw" type="_Cxob8mpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXRVC2paEdu6RZUBZGK4Bw" name="setTel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo1C5WpgEdu6RZUBZGK4Bw" name="tel" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXbF8WpaEdu6RZUBZGK4Bw" name="setPrenom" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo1C5mpgEdu6RZUBZGK4Bw" name="prenom" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXuA4WpaEdu6RZUBZGK4Bw" name="setPhoto" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Zo1C4GpgEdu6RZUBZGK4Bw" name="photo" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_MXuA42paEdu6RZUBZGK4Bw" name="getPrenom" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZpH91GpgEdu6RZUBZGK4Bw" type="_Cxob8mpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QTrrsmpQEdu6RZUBZGK4Bw" name="VerticalPanel">
+    <generalization xmi:id="_Qo_NUGpQEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C4Vg4GpQEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <generalization xmi:id="_Qo_NUWpQEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_C4Vg4mpQEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <generalization xmi:id="_Qo_NUmpQEdu6RZUBZGK4Bw">
+      <general xmi:type="uml:Interface" href="platform:/resource/DemoGWT3/.repository.uml2#_C4Vg5GpQEdu6RZUBZGK4Bw"/>
+    </generalization>
+    <ownedAttribute xmi:id="_QplqQGpQEdu6RZUBZGK4Bw" name="vertAlign" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WwWpQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_QplqQWpQEdu6RZUBZGK4Bw" name="horzAlign" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_QplqQmpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QplqQ2pQEdu6RZUBZGK4Bw" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QplqRGpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QplqRWpQEdu6RZUBZGK4Bw" name="getVerticalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QplqRmpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WwWpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QplqR2pQEdu6RZUBZGK4Bw" name="VerticalPanel" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_QpvbQGpQEdu6RZUBZGK4Bw" name="setHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QpvbQWpQEdu6RZUBZGK4Bw" name="align">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QpvbQmpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QpvbQ2pQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_QpvbRGpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QpvbRWpQEdu6RZUBZGK4Bw" name="getWidget" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QpvbRmpQEdu6RZUBZGK4Bw" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QpvbR2pQEdu6RZUBZGK4Bw" type="_C5FHxGpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QpvbSGpQEdu6RZUBZGK4Bw" name="getWidgetIndex" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QpvbSWpQEdu6RZUBZGK4Bw" name="child" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_Qp4lMGpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Qp4lMWpQEdu6RZUBZGK4Bw" name="insert" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Qp4lMmpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_Qp4lM2pQEdu6RZUBZGK4Bw" name="beforeIndex">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Qp4lNGpQEdu6RZUBZGK4Bw" name="getHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Qp4lNWpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WxGpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Qp4lNmpQEdu6RZUBZGK4Bw" name="setVerticalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QqCWMGpQEdu6RZUBZGK4Bw" name="align">
+        <type xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_C47WwWpQEdu6RZUBZGK4Bw"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QqCWMWpQEdu6RZUBZGK4Bw" name="add" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QqCWMmpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QqCWM2pQEdu6RZUBZGK4Bw" name="getWidgetCount" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QqCWNGpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QT1csWpQEdu6RZUBZGK4Bw" name="FlexTable"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Cxob8GpQEdu6RZUBZGK4Bw" name="java.lang">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Cxob8mpQEdu6RZUBZGK4Bw" name="String" isLeaf="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CCihUGpQEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_CCF1YGpQEdu6RZUBZGK4Bw"/>
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CCsSUWpQEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CC1cQWpQEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CwSYIGpQEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CyhMwGpQEdu6RZUBZGK4Bw" supplier="_Cxob8mpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cyq9wmpQEdu6RZUBZGK4Bw" supplier="_Cxob8mpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cy0uwmpQEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cy94sWpQEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cy94tGpQEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CzHpsWpQEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CzQzompQEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CzakoWpQEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_C0m3cGpQEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_C0m3cmpQEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_C0m3dGpQEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_QUIXoGpQEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_QUIXompQEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_QUIXpWpQEdu6RZUBZGK4Bw" supplier="_QT1ctmpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_QUbSkmpQEdu6RZUBZGK4Bw" supplier="_QT1ctmpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_QUbSlWpQEdu6RZUBZGK4Bw" supplier="_QTrrsmpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_al5s8GpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_al5s8mpREdu6RZUBZGK4Bw" supplier="_QTrrsmpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cJ4oMGpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cJ4oMmpREdu6RZUBZGK4Bw" supplier="_QTrrsmpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cMa-0mpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cMa-1GpREdu6RZUBZGK4Bw" supplier="_QTrrsmpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cOD9kGpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cXcjEGpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cmpcsWpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_coIqcmpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cpLMQGpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cxOVAGpREdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tmdXUGpSEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_t_C2cGpSEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_uG8OMGpSEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_uIIhAGpSEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_uN81IGpSEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_8ywiYWpSEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_E7QTgGpTEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_F6I9oGpTEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_kA3uYGpYEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_lOf_IGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_lOf_ImpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_lOpwIWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_phbz8GpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_phbz8mpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_phk94WpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_pxheZGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_pxrPYWpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_pxrPY2pYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qQXWgWpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qQXWg2pYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qQhHgWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qbirwmpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qbscwWpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qbscw2pYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qmuBAmpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qnA78WpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qnA782pYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qxcqUGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qxmbUWpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qxvlQWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rGdRAGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rGdRAmpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rGnCAWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rbUtwGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rbUtwmpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_rbd3sWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_r08usGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_r08usmpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_r1GfsWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sdCCYGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sdCCYmpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sdLzYWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sqvuQGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sqvuQmpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_sq5fQWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ss1Y8GpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ss-i4WpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ss-i42pYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_syDQIGpYEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_syDQImpYEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_syMaEWpYEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UCFhAGpZEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UCOq8WpZEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UCOq82pZEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UFzjYGpZEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UFzjYmpZEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UF9UYWpZEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UHTYMGpZEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UHciIWpZEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UHciI2pZEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UNHFQGpZEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UNHFQmpZEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UNHFRGpZEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zw9IUGpZEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aJF7gGpZEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aLB1MGpZEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aMOIAGpZEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aS7M8GpZEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_MX3x4GpaEdu6RZUBZGK4Bw" supplier="_Cxob8mpQEdu6RZUBZGK4Bw" client="_QT1ctmpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_N9o10GpaEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_iSKXkmpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_i5DYcGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_jHzmImpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_jWaC0GpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_j0DoIGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_mc5SompdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_mvqdoGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_nDCsompdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_nbUpwmpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_nlwYImpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_n6BX8mpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_stlNkGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tFuAwmpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tOgwYWpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tPj5QGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tZPZsmpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_vj1B8mpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_vpV0EmpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_vqYV4GpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_vybeompdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_wF83kGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_wLT4sGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_wMDfkGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_wVJKIGpdEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_2lT1wGpfEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_24hssGpfEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_3CgvIGpfEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_3DHMEGpfEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_3LwKsGpfEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_37JAQmpfEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_4nP4UmpfEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_43LxwGpfEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_44rmkmpfEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_4535YGpfEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_5BK0MGpfEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_K3MakGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LBVOAGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LChg0GpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LDa4sGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LMptMmpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LTzeEGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LijrwGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Ljv-kGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LrpWUGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_O00GsGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_O2KKgGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_O25xYGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_O793kGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PPCkkGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PdpBQGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Pl_E8GpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Pmlh4GpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PsQFAGpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_P1CNkmpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_RbaVgGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Rcc3UGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_RdgAMGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_RjAyUGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Rs2DwGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_R3ueEGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_R4w_4GpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_SA0IompgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZfuxSmpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZfuxTGpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxQWpgEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zf4iQmpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxQWpgEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zf4iRGpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxQWpgEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zf4iR2pgEdu6RZUBZGK4Bw" supplier="_QTrrsmpQEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zf4iSmpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zf4iTGpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxSWpgEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZgCTQmpgEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZgCTRWpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxSGpgEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZgVOM2pgEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZgVONWpgEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZgVON2pgEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZlZUYGpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZljFYWpgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_ZfuxQWpgEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZljFY2pgEdu6RZUBZGK4Bw" client="_qST3QWpYEdu6RZUBZGK4Bw _qST3QWpYEdu6RZUBZGK4Bw">
+    <supplier xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZlsPUGpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ZlsPUmpgEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zl2AUGpgEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zl_xUWpgEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zl_xU2pgEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Zs2AMWpgEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_YVjnsmphEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_YfY5ImphEdu6RZUBZGK4Bw" supplier="_QT1csWpQEdu6RZUBZGK4Bw">
+    <client xmi:type="uml:Class" href="platform:/resource/DemoGWT3/.repository.uml2#_QTrrsGpQEdu6RZUBZGK4Bw"/>
+  </packagedElement>
+</uml:Model>

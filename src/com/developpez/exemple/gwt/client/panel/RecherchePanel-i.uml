@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_PGCz4GpQEdu6RZUBZGK4Bw" name="panel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_BjP9QGpQEdu6RZUBZGK4Bw" name="RecherchePanel" clientDependency="_CCihUGpQEdu6RZUBZGK4Bw _CCsSUWpQEdu6RZUBZGK4Bw _CC1cQWpQEdu6RZUBZGK4Bw _CwSYIGpQEdu6RZUBZGK4Bw">
+    <generalization xmi:id="_CAc2ompQEdu6RZUBZGK4Bw" general="_CAc2oWpQEdu6RZUBZGK4Bw"/>
+    <ownedOperation xmi:id="_CA5ikGpQEdu6RZUBZGK4Bw" name="RecherchePanel" visibility="public" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_CAc2oGpQEdu6RZUBZGK4Bw" name="com.google.gwt.user.client.ui">
+    <packagedElement xmi:type="uml:Class" xmi:id="_CAc2oWpQEdu6RZUBZGK4Bw" name="HorizontalPanel">
+      <generalization xmi:id="_C4Vg4WpQEdu6RZUBZGK4Bw" general="_C4Vg4GpQEdu6RZUBZGK4Bw"/>
+      <generalization xmi:id="_C4Vg42pQEdu6RZUBZGK4Bw" general="_C4Vg4mpQEdu6RZUBZGK4Bw"/>
+      <generalization xmi:id="_C4Vg5WpQEdu6RZUBZGK4Bw" general="_C4Vg5GpQEdu6RZUBZGK4Bw"/>
+      <ownedAttribute xmi:id="_C4yM0GpQEdu6RZUBZGK4Bw" name="vertAlign" visibility="private" type="_C47WwWpQEdu6RZUBZGK4Bw"/>
+      <ownedAttribute xmi:id="_C47WwmpQEdu6RZUBZGK4Bw" name="horzAlign" visibility="private" type="_C47WxGpQEdu6RZUBZGK4Bw"/>
+      <ownedAttribute xmi:id="_C47WxWpQEdu6RZUBZGK4Bw" name="tableRow" visibility="private" type="_C47Wx2pQEdu6RZUBZGK4Bw"/>
+      <ownedOperation xmi:id="_C47WyGpQEdu6RZUBZGK4Bw" name="setVerticalAlignment" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5FHwGpQEdu6RZUBZGK4Bw" name="align" type="_C47WwWpQEdu6RZUBZGK4Bw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5FHwWpQEdu6RZUBZGK4Bw" name="getVerticalAlignment" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5FHwmpQEdu6RZUBZGK4Bw" type="_C47WwWpQEdu6RZUBZGK4Bw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5FHw2pQEdu6RZUBZGK4Bw" name="add" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5FHxWpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5FHxmpQEdu6RZUBZGK4Bw" name="getWidgetIndex" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5FHx2pQEdu6RZUBZGK4Bw" name="child" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+        <ownedParameter xmi:id="_C5FHyGpQEdu6RZUBZGK4Bw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5FHyWpQEdu6RZUBZGK4Bw" name="getWidget" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5FHympQEdu6RZUBZGK4Bw" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_C5FHy2pQEdu6RZUBZGK4Bw" type="_C5FHxGpQEdu6RZUBZGK4Bw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5FHzGpQEdu6RZUBZGK4Bw" name="HorizontalPanel" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_C5FHzWpQEdu6RZUBZGK4Bw" name="getHorizontalAlignment" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5ORsGpQEdu6RZUBZGK4Bw" type="_C47WxGpQEdu6RZUBZGK4Bw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5ORsWpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5YCsGpQEdu6RZUBZGK4Bw" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_C5YCsWpQEdu6RZUBZGK4Bw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5YCsmpQEdu6RZUBZGK4Bw" name="setHorizontalAlignment" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5YCs2pQEdu6RZUBZGK4Bw" name="align" type="_C47WxGpQEdu6RZUBZGK4Bw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5YCtGpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5YCtWpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+        <ownedParameter xmi:id="_C5YCtmpQEdu6RZUBZGK4Bw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5YCt2pQEdu6RZUBZGK4Bw" name="insert" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5YCuGpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+        <ownedParameter xmi:id="_C5YCuWpQEdu6RZUBZGK4Bw" name="beforeIndex">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_C5YCumpQEdu6RZUBZGK4Bw" name="getWidgetCount" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_C5YCu2pQEdu6RZUBZGK4Bw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_CCF1YGpQEdu6RZUBZGK4Bw" name="Button"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_CwSYImpQEdu6RZUBZGK4Bw" name="Composite" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Cxeq8WpQEdu6RZUBZGK4Bw" name="Label"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Cxeq82pQEdu6RZUBZGK4Bw" name="TextBox"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_C4Vg4GpQEdu6RZUBZGK4Bw" name="CellPanel" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_C4Vg4mpQEdu6RZUBZGK4Bw" name="IndexedPanel" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_C4Vg5GpQEdu6RZUBZGK4Bw" name="HasAlignment" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_C47WwGpQEdu6RZUBZGK4Bw" name="HasVerticalAlignment" isAbstract="true">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_C47WwWpQEdu6RZUBZGK4Bw" name="VerticalAlignmentConstant"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_C47Ww2pQEdu6RZUBZGK4Bw" name="HasHorizontalAlignment" isAbstract="true">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_C47WxGpQEdu6RZUBZGK4Bw" name="HorizontalAlignmentConstant"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_C5FHxGpQEdu6RZUBZGK4Bw" name="Widget"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CAc2oWpQEdu6RZUBZGK4Bw" name="HorizontalPanel">
+    <generalization xmi:id="_C4Vg4WpQEdu6RZUBZGK4Bw" general="_C4Vg4GpQEdu6RZUBZGK4Bw"/>
+    <generalization xmi:id="_C4Vg42pQEdu6RZUBZGK4Bw" general="_C4Vg4mpQEdu6RZUBZGK4Bw"/>
+    <generalization xmi:id="_C4Vg5WpQEdu6RZUBZGK4Bw" general="_C4Vg5GpQEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_C4yM0GpQEdu6RZUBZGK4Bw" name="vertAlign" visibility="private" type="_C47WwWpQEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_C47WwmpQEdu6RZUBZGK4Bw" name="horzAlign" visibility="private" type="_C47WxGpQEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_C47WxWpQEdu6RZUBZGK4Bw" name="tableRow" visibility="private" type="_C47Wx2pQEdu6RZUBZGK4Bw"/>
+    <ownedOperation xmi:id="_C47WyGpQEdu6RZUBZGK4Bw" name="setVerticalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHwGpQEdu6RZUBZGK4Bw" name="align" type="_C47WwWpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHwWpQEdu6RZUBZGK4Bw" name="getVerticalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHwmpQEdu6RZUBZGK4Bw" type="_C47WwWpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHw2pQEdu6RZUBZGK4Bw" name="add" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHxWpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHxmpQEdu6RZUBZGK4Bw" name="getWidgetIndex" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHx2pQEdu6RZUBZGK4Bw" name="child" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_C5FHyGpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHyWpQEdu6RZUBZGK4Bw" name="getWidget" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5FHympQEdu6RZUBZGK4Bw" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_C5FHy2pQEdu6RZUBZGK4Bw" type="_C5FHxGpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5FHzGpQEdu6RZUBZGK4Bw" name="HorizontalPanel" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_C5FHzWpQEdu6RZUBZGK4Bw" name="getHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5ORsGpQEdu6RZUBZGK4Bw" type="_C47WxGpQEdu6RZUBZGK4Bw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5ORsWpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCsGpQEdu6RZUBZGK4Bw" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_C5YCsWpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCsmpQEdu6RZUBZGK4Bw" name="setHorizontalAlignment" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCs2pQEdu6RZUBZGK4Bw" name="align" type="_C47WxGpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCtGpQEdu6RZUBZGK4Bw" name="remove" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCtWpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_C5YCtmpQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCt2pQEdu6RZUBZGK4Bw" name="insert" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCuGpQEdu6RZUBZGK4Bw" name="w" type="_C5FHxGpQEdu6RZUBZGK4Bw"/>
+      <ownedParameter xmi:id="_C5YCuWpQEdu6RZUBZGK4Bw" name="beforeIndex">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_C5YCumpQEdu6RZUBZGK4Bw" name="getWidgetCount" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C5YCu2pQEdu6RZUBZGK4Bw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CCF1YGpQEdu6RZUBZGK4Bw" name="Button"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CCYwUGpQEdu6RZUBZGK4Bw" name="Texte" clientDependency="_CyhMwGpQEdu6RZUBZGK4Bw _Cyq9wmpQEdu6RZUBZGK4Bw _Cy0uwmpQEdu6RZUBZGK4Bw _Cy94sWpQEdu6RZUBZGK4Bw _Cy94tGpQEdu6RZUBZGK4Bw _CzHpsWpQEdu6RZUBZGK4Bw _CzQzompQEdu6RZUBZGK4Bw _CzakoWpQEdu6RZUBZGK4Bw _C0m3cGpQEdu6RZUBZGK4Bw _C0m3cmpQEdu6RZUBZGK4Bw _C0m3dGpQEdu6RZUBZGK4Bw">
+    <generalization xmi:id="_CwcJIGpQEdu6RZUBZGK4Bw" general="_CwSYImpQEdu6RZUBZGK4Bw"/>
+    <ownedAttribute xmi:id="_Cxeq8GpQEdu6RZUBZGK4Bw" name="label" visibility="private" type="_Cxeq8WpQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cxob-GpQEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cxob92pQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Cxeq8mpQEdu6RZUBZGK4Bw" name="textBox" visibility="private" type="_Cxeq82pQEdu6RZUBZGK4Bw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cx7W4GpQEdu6RZUBZGK4Bw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cxxl4GpQEdu6RZUBZGK4Bw"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Cxeq9GpQEdu6RZUBZGK4Bw" name="setLabel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C0dGcGpQEdu6RZUBZGK4Bw" name="texte" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Cxob9GpQEdu6RZUBZGK4Bw" name="Texte" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_Cxob9WpQEdu6RZUBZGK4Bw" name="setTexte" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_C0dGcWpQEdu6RZUBZGK4Bw" name="texte" type="_Cxob8mpQEdu6RZUBZGK4Bw"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CwSYImpQEdu6RZUBZGK4Bw" name="Composite" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Cxeq8WpQEdu6RZUBZGK4Bw" name="Label"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Cxeq82pQEdu6RZUBZGK4Bw" name="TextBox"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C4Vg4GpQEdu6RZUBZGK4Bw" name="CellPanel" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_C4Vg4mpQEdu6RZUBZGK4Bw" name="IndexedPanel" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_C4Vg5GpQEdu6RZUBZGK4Bw" name="HasAlignment" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_C47WwGpQEdu6RZUBZGK4Bw" name="HasVerticalAlignment" isAbstract="true">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_C47WwWpQEdu6RZUBZGK4Bw" name="VerticalAlignmentConstant"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_C47Ww2pQEdu6RZUBZGK4Bw" name="HasHorizontalAlignment" isAbstract="true">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_C47WxGpQEdu6RZUBZGK4Bw" name="HorizontalAlignmentConstant"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_C47WxmpQEdu6RZUBZGK4Bw" name="com.google.gwt.user.client">
+    <packagedElement xmi:type="uml:Class" xmi:id="_C47Wx2pQEdu6RZUBZGK4Bw" name="Element" isLeaf="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C47Wx2pQEdu6RZUBZGK4Bw" name="Element" isLeaf="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_C5FHxGpQEdu6RZUBZGK4Bw" name="Widget"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Cxob8GpQEdu6RZUBZGK4Bw" name="java.lang">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Cxob8mpQEdu6RZUBZGK4Bw" name="String" isLeaf="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CCihUGpQEdu6RZUBZGK4Bw" supplier="_CCF1YGpQEdu6RZUBZGK4Bw" client="_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CCsSUWpQEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw" client="_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CC1cQWpQEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw" client="_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CwSYIGpQEdu6RZUBZGK4Bw" supplier="_CCYwUGpQEdu6RZUBZGK4Bw" client="_BjP9QGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CyhMwGpQEdu6RZUBZGK4Bw" supplier="_Cxob8mpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cyq9wmpQEdu6RZUBZGK4Bw" supplier="_Cxob8mpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cy0uwmpQEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cy94sWpQEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Cy94tGpQEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CzHpsWpQEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CzQzompQEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_CzakoWpQEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_C0m3cGpQEdu6RZUBZGK4Bw" supplier="_Cxeq82pQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_C0m3cmpQEdu6RZUBZGK4Bw" supplier="_CAc2oWpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_C0m3dGpQEdu6RZUBZGK4Bw" supplier="_Cxeq8WpQEdu6RZUBZGK4Bw" client="_CCYwUGpQEdu6RZUBZGK4Bw"/>
+</uml:Model>

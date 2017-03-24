@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Contact-i" id="com.developpez.exemple.gwt.client.util" metadata="uml2-1.0" initialized="true" tag="1000" key="32303036313030362044656D6F475754332F4252524F554C4C41">
+  <children xsi:type="editmodel:ClassEditModel" name="Contact" location="50,50" size="379,403" id="com.developpez.exemple.gwt.client.util/Contact" runTimeClassModel="setEmail(Ljava.lang.String;),getAllContacts(),prenom,getNom(),setTel(Ljava.lang.String;),setPhoto(Ljava.lang.String;),setNom(Ljava.lang.String;),nom,getTel(),getPhoto(),getPrenom(),Contact(),email,photo,Contact(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),tel,getEmail(),setPrenom(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="email" id="com.developpez.exemple.gwt.client.util/Contact#email"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="com.developpez.exemple.gwt.client.util/Contact#nom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="photo" id="com.developpez.exemple.gwt.client.util/Contact#photo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prenom" id="com.developpez.exemple.gwt.client.util/Contact#prenom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tel" id="com.developpez.exemple.gwt.client.util/Contact#tel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="356,234">
+      <children xsi:type="editmodel:MethodEditModel" name="Contact" id="com.developpez.exemple.gwt.client.util/Contact#Contact(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Contact" id="com.developpez.exemple.gwt.client.util/Contact#Contact()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAllContacts" id="com.developpez.exemple.gwt.client.util/Contact#getAllContacts()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmail" id="com.developpez.exemple.gwt.client.util/Contact#getEmail()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNom" id="com.developpez.exemple.gwt.client.util/Contact#getNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPhoto" id="com.developpez.exemple.gwt.client.util/Contact#getPhoto()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPrenom" id="com.developpez.exemple.gwt.client.util/Contact#getPrenom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTel" id="com.developpez.exemple.gwt.client.util/Contact#getTel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEmail" id="com.developpez.exemple.gwt.client.util/Contact#setEmail(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNom" id="com.developpez.exemple.gwt.client.util/Contact#setNom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPhoto" id="com.developpez.exemple.gwt.client.util/Contact#setPhoto(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPrenom" id="com.developpez.exemple.gwt.client.util/Contact#setPrenom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTel" id="com.developpez.exemple.gwt.client.util/Contact#setTel(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="open=com.developpez.exemple.gwt.client.util/Contact;wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

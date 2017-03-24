@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="ContactsPanel-i" id="com.developpez.exemple.gwt.client.panel" metadata="uml2-1.0" initialized="true" tag="1000" key="32303036313030362044656D6F475754332F4252524F554C4C41">
+  <children xsi:type="editmodel:ClassEditModel" name="ContactsPanel" location="50,101" size="234,151" id="com.developpez.exemple.gwt.client.panel/ContactsPanel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="panel" id="com.developpez.exemple.gwt.client.panel/ContactsPanel#panel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="t" id="com.developpez.exemple.gwt.client.panel/ContactsPanel#t"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="211,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ContactsPanel" id="com.developpez.exemple.gwt.client.panel/ContactsPanel#ContactsPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addContact" id="com.developpez.exemple.gwt.client.panel/ContactsPanel#addContact(Lcom.developpez.exemple.gwt.client.util.Contact;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.google.gwt.user.client.ui/VerticalPanel&lt;-com.developpez.exemple.gwt.client.panel/ContactsPanel" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="234,75" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,136"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="VerticalPanel" location="340,40" size="344,331" id="com.google.gwt.user.client.ui/VerticalPanel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="209,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="horzAlign" id="com.google.gwt.user.client.ui/VerticalPanel#horzAlign"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vertAlign" id="com.google.gwt.user.client.ui/VerticalPanel#vertAlign"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="317,216">
+      <children xsi:type="editmodel:MethodEditModel" name="VerticalPanel" id="com.google.gwt.user.client.ui/VerticalPanel#VerticalPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="com.google.gwt.user.client.ui/VerticalPanel#add(Lcom.google.gwt.user.client.ui.Widget;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHorizontalAlignment" id="com.google.gwt.user.client.ui/VerticalPanel#getHorizontalAlignment()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVerticalAlignment" id="com.google.gwt.user.client.ui/VerticalPanel#getVerticalAlignment()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWidget" id="com.google.gwt.user.client.ui/VerticalPanel#getWidget(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWidgetCount" id="com.google.gwt.user.client.ui/VerticalPanel#getWidgetCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWidgetIndex" id="com.google.gwt.user.client.ui/VerticalPanel#getWidgetIndex(Lcom.google.gwt.user.client.ui.Widget;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insert" id="com.google.gwt.user.client.ui/VerticalPanel#insert(Lcom.google.gwt.user.client.ui.Widget;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="com.google.gwt.user.client.ui/VerticalPanel#remove(Lcom.google.gwt.user.client.ui.Widget;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="com.google.gwt.user.client.ui/VerticalPanel#remove(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHorizontalAlignment" id="com.google.gwt.user.client.ui/VerticalPanel#setHorizontalAlignment(Lcom.google.gwt.user.client.ui.HasHorizontalAlignment.HorizontalAlignmentConstant;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVerticalAlignment" id="com.google.gwt.user.client.ui/VerticalPanel#setVerticalAlignment(Lcom.google.gwt.user.client.ui.HasVerticalAlignment.VerticalAlignmentConstant;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="open=com.developpez.exemple.gwt.client.panel/ContactsPanel;wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Texte-i" id="com.developpez.exemple.gwt.client.panel" metadata="uml2-1.0" initialized="true" tag="1000" key="32303036313030362044656D6F475754332F4252524F554C4C41">
+  <children xsi:type="editmodel:ClassEditModel" name="Texte" location="281,310" size="164,187" id="com.developpez.exemple.gwt.client.panel/Texte" runTimeClassModel="Texte(),getTexte(),label,textBox,setLabel(Ljava.lang.String;),setTexte(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="label" id="com.developpez.exemple.gwt.client.panel/Texte#label"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="textBox" id="com.developpez.exemple.gwt.client.panel/Texte#textBox"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Texte" id="com.developpez.exemple.gwt.client.panel/Texte#Texte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTexte" id="com.developpez.exemple.gwt.client.panel/Texte#getTexte()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLabel" id="com.developpez.exemple.gwt.client.panel/Texte#setLabel(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTexte" id="com.developpez.exemple.gwt.client.panel/Texte#setTexte(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.google.gwt.user.client.ui/Composite&lt;-com.developpez.exemple.gwt.client.panel/Texte" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="162,205"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.developpez.exemple.gwt.client.panel/Texte->com.google.gwt.user.client.ui/Label" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,187" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="305,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.developpez.exemple.gwt.client.panel/Texte->com.google.gwt.user.client.ui/TextBox" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,187" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="32,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Composite" location="200,50" size="325,205" id="com.google.gwt.user.client.ui/Composite">
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="widget" id="com.google.gwt.user.client.ui/Composite#widget"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="161,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Composite" id="com.google.gwt.user.client.ui/Composite#Composite()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElement" id="com.google.gwt.user.client.ui/Composite#getElement()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initWidget" id="com.google.gwt.user.client.ui/Composite#initWidget(Lcom.google.gwt.user.client.ui.Widget;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onAttach" id="com.google.gwt.user.client.ui/Composite#onAttach()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDetach" id="com.google.gwt.user.client.ui/Composite#onDetach()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWidget" id="com.google.gwt.user.client.ui/Composite#setWidget(Lcom.google.gwt.user.client.ui.Widget;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="Label" location="10,520" size="340,385" id="com.google.gwt.user.client.ui/Label">
+    <children xsi:type="editmodel:CompartmentEditModel" size="219,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="clickListeners" id="com.google.gwt.user.client.ui/Label#clickListeners"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="horzAlign" id="com.google.gwt.user.client.ui/Label#horzAlign"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mouseListeners" id="com.google.gwt.user.client.ui/Label#mouseListeners"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="317,252">
+      <children xsi:type="editmodel:MethodEditModel" name="Label" id="com.google.gwt.user.client.ui/Label#Label(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Label" id="com.google.gwt.user.client.ui/Label#Label(Ljava.lang.String;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Label" id="com.google.gwt.user.client.ui/Label#Label()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addClickListener" id="com.google.gwt.user.client.ui/Label#addClickListener(Lcom.google.gwt.user.client.ui.ClickListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addMouseListener" id="com.google.gwt.user.client.ui/Label#addMouseListener(Lcom.google.gwt.user.client.ui.MouseListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHorizontalAlignment" id="com.google.gwt.user.client.ui/Label#getHorizontalAlignment()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getText" id="com.google.gwt.user.client.ui/Label#getText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWordWrap" id="com.google.gwt.user.client.ui/Label#getWordWrap()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onBrowserEvent" id="com.google.gwt.user.client.ui/Label#onBrowserEvent(Lcom.google.gwt.user.client.Event;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeClickListener" id="com.google.gwt.user.client.ui/Label#removeClickListener(Lcom.google.gwt.user.client.ui.ClickListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeMouseListener" id="com.google.gwt.user.client.ui/Label#removeMouseListener(Lcom.google.gwt.user.client.ui.MouseListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHorizontalAlignment" id="com.google.gwt.user.client.ui/Label#setHorizontalAlignment(Lcom.google.gwt.user.client.ui.HasHorizontalAlignment.HorizontalAlignmentConstant;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setText" id="com.google.gwt.user.client.ui/Label#setText(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWordWrap" id="com.google.gwt.user.client.ui/Label#setWordWrap(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="TextBox" location="380,520" size="311,169" id="com.google.gwt.user.client.ui/TextBox">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,90">
+      <children xsi:type="editmodel:MethodEditModel" name="TextBox" id="com.google.gwt.user.client.ui/TextBox#TextBox()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxLength" id="com.google.gwt.user.client.ui/TextBox#getMaxLength()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVisibleLength" id="com.google.gwt.user.client.ui/TextBox#getVisibleLength()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaxLength" id="com.google.gwt.user.client.ui/TextBox#setMaxLength(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVisibleLength" id="com.google.gwt.user.client.ui/TextBox#setVisibleLength(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="open=com.developpez.exemple.gwt.client.panel/Texte;wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

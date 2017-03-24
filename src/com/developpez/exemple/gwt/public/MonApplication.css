@@ -1,0 +1,36 @@
+
+.contact-RecherchePanel {
+	background-color: #6699FF;
+	cursor: pointer;
+	cursor: hand;
+	padding: 5px;
+}
+
+.contact-ContactPanel {
+	padding: 3px;
+  background-color: #A6A5C2;
+  font-weight: bold;
+  font-size : 11px;
+  font-family: Verdana,sans-serif;  
+}
+
+
+.contact-ContactPanel-line1 {
+	background-color: #DDEEFF;
+	  padding: 3px;
+  font-size : 11px;
+  font-family: Verdana,sans-serif;  
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+.contact-ContactPanel-line2 {
+	background-color: #FFFFCC;
+	  padding: 3px;
+  font-size : 11px;
+  font-family: Verdana,sans-serif;  
+  border-style: solid;
+  border-width: 1px;
+}
+
